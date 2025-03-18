@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5E4C71F8-7AA6-48C9-B616-9BBE7692C600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{AB67A6CC-F045-4C22-AB56-02C0EEA0E801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "aspire\AppHost\AppHost.csproj", "{3096C2E0-7633-D153-E271-B7CC35AF4AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "test\IntegrationTests\IntegrationTests.csproj", "{48329B19-1C4B-4AAE-94BF-3F2E78147217}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "src\WebApp\WebApp.csproj", "{E3CF19E4-5622-64B9-34FF-31DCC94C3E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "aspire\ServiceDefaults\ServiceDefaults.csproj", "{D082FD63-8065-4728-94C0-0F265E5DCA5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3096C2E0-7633-D153-E271-B7CC35AF4AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3096C2E0-7633-D153-E271-B7CC35AF4AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3096C2E0-7633-D153-E271-B7CC35AF4AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3096C2E0-7633-D153-E271-B7CC35AF4AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48329B19-1C4B-4AAE-94BF-3F2E78147217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48329B19-1C4B-4AAE-94BF-3F2E78147217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48329B19-1C4B-4AAE-94BF-3F2E78147217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48329B19-1C4B-4AAE-94BF-3F2E78147217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CF19E4-5622-64B9-34FF-31DCC94C3E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CF19E4-5622-64B9-34FF-31DCC94C3E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CF19E4-5622-64B9-34FF-31DCC94C3E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CF19E4-5622-64B9-34FF-31DCC94C3E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D082FD63-8065-4728-94C0-0F265E5DCA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D082FD63-8065-4728-94C0-0F265E5DCA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D082FD63-8065-4728-94C0-0F265E5DCA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D082FD63-8065-4728-94C0-0F265E5DCA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3096C2E0-7633-D153-E271-B7CC35AF4AF2} = {AB67A6CC-F045-4C22-AB56-02C0EEA0E801}
+		{48329B19-1C4B-4AAE-94BF-3F2E78147217} = {5E4C71F8-7AA6-48C9-B616-9BBE7692C600}
+		{E3CF19E4-5622-64B9-34FF-31DCC94C3E01} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D082FD63-8065-4728-94C0-0F265E5DCA5C} = {AB67A6CC-F045-4C22-AB56-02C0EEA0E801}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01E5760E-63E3-40C0-A30F-86E667D51045}
+	EndGlobalSection
+EndGlobal
